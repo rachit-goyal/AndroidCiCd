@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4.1.0
       - name: My first step
-        uses: ./.github/actions/my-action
+        run: actions/checkout
 
       - name:  Setup Java JDK
         uses: actions/setup-java@v3.13.0
